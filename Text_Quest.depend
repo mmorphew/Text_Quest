@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1596943589 source:c:\users\mdmor\onedrive_copy\desktop\coding_projects\text_quest\hero.cpp
+	<iostream>
+	"hero.h"
+
+1596944147 c:\users\mdmor\onedrive_copy\desktop\coding_projects\text_quest\hero.h
+	<iostream>
+
+1596943656 source:c:\users\mdmor\onedrive_copy\desktop\coding_projects\text_quest\main.cpp
+	<iostream>
+	"hero.h"
+
