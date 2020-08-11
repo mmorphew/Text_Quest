@@ -18,6 +18,14 @@ class hero
         int getDefence();
         int getSkills();
 
+        void setEXP(int);
+        void setLevel(int);
+        void setHP(int);
+        void setMP(int);
+        void setStrength(int);
+        void setDefence(int);
+        void setSkills(int);
+
     protected:
 
     private:

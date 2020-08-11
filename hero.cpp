@@ -48,3 +48,36 @@ int hero::getDefence()
     return defence;
 }
 
+void hero::setEXP(int xp)
+{
+    EXP = xp;
+}
+
+void hero::setLevel(int lvl)
+{
+    level = lvl;
+}
+
+void hero::setHP(int health)
+{
+    HP = health;
+}
+
+void hero::setMP(int mana)
+{
+    MP = mana;
+}
+
+void hero::setStrength(int str)
+{
+    strength = str;
+}
+
+void hero::setDefence(int def)
+{
+    defence = def;
+}
+
+
+
+

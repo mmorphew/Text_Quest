@@ -6,7 +6,7 @@ int main()
 {
     hero myHero;
     cout << myHero.getDefence() << endl;
-    cout << "Hello world!" << endl;
-
+    myHero.setDefence(5);
+    cout << myHero.getDefence() << endl;
     return 0;
 }
