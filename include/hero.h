@@ -26,6 +26,8 @@ class hero
         void setDefence(int);
         void setSkills(int);
 
+        int attack();
+
     protected:
 
     private:

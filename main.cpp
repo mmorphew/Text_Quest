@@ -1,12 +1,14 @@
 #include <iostream>
 #include "hero.h"
+#include "enemy.h"
+#include "battle.h"
 using namespace std;
 
 int main()
 {
     hero myHero;
-    cout << myHero.getDefence() << endl;
-    myHero.setDefence(5);
-    cout << myHero.getDefence() << endl;
+    enemy myEnemy;
+    battle sampleBattle(myHero, myEnemy);
+    sampleBattle.battleLoop();
     return 0;
 }
