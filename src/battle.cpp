@@ -33,7 +33,12 @@ void battle::battleLoop()
         else if(actorTwo.getHP() <= 0)
         {
             cout << "You have defeated your enemy." << endl;
+            return;
         }
+        cout << "Hero's Health" << endl;
+        showHealthBar(actorOne.getHP());
+        cout << "Foe's Health" << endl;
+        showHealthBar(actorTwo.getHP());
         showBattleMenu();
         cin >> choice;
 
@@ -41,6 +46,25 @@ void battle::battleLoop()
         {
             case 1:
                 cout << "You strike at the enemy" << endl;
+                int actorTwoHP = actorOne.attack(actorTwo);
+                actorTwo.setHP(actorTwoHP);
         }
     }
+}
+
+void battle::showHealthBar(int health)
+{
+    cout << '[';
+    for (int i = 0; i < 10; i++)
+    {
+        if(i<health)
+        {
+            cout << ':';
+        }
+        else
+        {
+            cout << ' ';
+        }
+    }
+    cout << ']' << endl;
 }

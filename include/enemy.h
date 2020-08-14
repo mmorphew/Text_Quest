@@ -1,7 +1,7 @@
 #ifndef ENEMY_H
 #define ENEMY_H
 #include <iostream>
-
+#include "hero.h"
 class enemy
 {
     public:

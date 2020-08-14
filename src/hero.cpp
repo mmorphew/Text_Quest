@@ -78,6 +78,12 @@ void hero::setDefence(int def)
     defence = def;
 }
 
+int hero::attack(class enemy antag)
+{
+    int damage = strength - antag.getDefence();
+    cout << "You deal " << damage << " damage." << endl;
+    return antag.getHP() - damage;
+}
 
 
 

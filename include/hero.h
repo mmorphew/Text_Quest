@@ -1,7 +1,8 @@
 #ifndef HERO_H
 #define HERO_H
 #include <iostream>
-
+#include "enemy.h"
+using namespace std;
 class hero
 {
     public:
@@ -26,7 +27,7 @@ class hero
         void setDefence(int);
         void setSkills(int);
 
-        int attack();
+        int attack(class enemy);
 
     protected:
 

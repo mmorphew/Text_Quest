@@ -11,17 +11,19 @@
 	"enemy.h"
 	"battle.h"
 
-1597180738 c:\users\mdmor\onedrive_copy\desktop\coding_projects\text_quest\include\hero.h
+1597332947 c:\users\mdmor\onedrive_copy\desktop\coding_projects\text_quest\include\hero.h
 	<iostream>
+	"enemy.h"
 
-1597180738 c:\users\mdmor\onedrive_copy\desktop\coding_projects\text_quest\include\enemy.h
+1597332672 c:\users\mdmor\onedrive_copy\desktop\coding_projects\text_quest\include\enemy.h
 	<iostream>
+	"hero.h"
 
-1597250134 c:\users\mdmor\onedrive_copy\desktop\coding_projects\text_quest\include\battle.h
+1597369709 c:\users\mdmor\onedrive_copy\desktop\coding_projects\text_quest\include\battle.h
 	"hero.h"
 	"enemy.h"
 
-1597250449 source:c:\users\mdmor\onedrive_copy\desktop\coding_projects\text_quest\src\battle.cpp
+1597374861 source:c:\users\mdmor\onedrive_copy\desktop\coding_projects\text_quest\src\battle.cpp
 	"battle.h"
 	"hero.h"
 	<iostream>
@@ -29,6 +31,6 @@
 1597248185 source:c:\users\mdmor\onedrive_copy\desktop\coding_projects\text_quest\src\enemy.cpp
 	"enemy.h"
 
-1597248180 source:c:\users\mdmor\onedrive_copy\desktop\coding_projects\text_quest\src\hero.cpp
+1597332947 source:c:\users\mdmor\onedrive_copy\desktop\coding_projects\text_quest\src\hero.cpp
 	"hero.h"
 

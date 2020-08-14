@@ -12,6 +12,7 @@ class battle
 
         void showBattleMenu();
         void battleLoop();
+        void showHealthBar(int);
 
     protected:
 
